@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a problem with DBForensics preview builds
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing DBForensics. Please remove sensitive data before sharing screenshots, logs, or PCAP files.
+  - type: input
+    id: version
+    attributes:
+      label: DBForensics version
+      description: Release version or build name.
+      placeholder: v0.1-preview
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: Windows 10 22H2 / Windows 11 23H2
+    validations:
+      required: true
+  - type: input
+    id: database
+    attributes:
+      label: Database type and version
+      placeholder: MySQL 8.0.36
+    validations:
+      required: true
+  - type: dropdown
+    id: input-type
+    attributes:
+      label: Capture file type
+      options:
+        - PCAP
+        - PCAPNG
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: encrypted
+    attributes:
+      label: Is the database traffic encrypted?
+      options:
+        - No
+        - Yes
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect DBForensics to reconstruct or display?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open DBForensics
+        2. Import ...
+        3. Select ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, logs, or anonymized sample PCAP
+      description: Attach only data that has been anonymized and cleared for sharing.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context

@@ -1,0 +1,64 @@
+name: Database Support Request
+description: Request support for another database protocol or database version
+title: "[Database Support]: "
+labels: [database-support]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        DBForensics currently focuses on MySQL. Use this template to request additional database protocol support.
+  - type: input
+    id: database
+    attributes:
+      label: Database type and version
+      placeholder: PostgreSQL 16 / Oracle 19c / SQL Server 2022
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client, driver, or application
+      placeholder: DBeaver / JDBC / Navicat / Python / Go / application name
+  - type: dropdown
+    id: traffic-type
+    attributes:
+      label: Traffic capture type
+      options:
+        - Offline PCAP / PCAPNG
+        - Live capture
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: encrypted
+    attributes:
+      label: Is the traffic usually encrypted?
+      options:
+        - No
+        - Yes
+        - Sometimes
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Investigation use case
+      description: What do you need to reconstruct or investigate for this database?
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Important fields
+      description: SQL text, user, database, schema, application, rows, latency, errors, transaction ID, etc.
+  - type: textarea
+    id: samples
+    attributes:
+      label: Sample captures or references
+      description: Attach only anonymized captures that are safe to share publicly.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context

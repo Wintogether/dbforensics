@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or discuss a workflow
+    url: https://github.com/Wintogether/dbforensics/discussions
+    about: Use Discussions for general questions, investigation workflows, and product feedback.
