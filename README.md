@@ -82,9 +82,11 @@ Download the Windows preview build from [GitHub Releases](https://github.com/Win
 
 ## Demo
 
-Click the preview image to open the MP4 demo. GitHub may download the video instead of playing it inline, depending on browser and repository rendering behavior.
+Watch a short preview of DBForensics reconstructing database traffic from a PCAP file:
 
-[![DBForensics demo preview](assets/hero.png)](assets/demo.mp4)
+[![DBForensics demo preview](assets/hero.png)](https://www.youtube.com/watch?v=U7j7LdGtnmA)
+
+Local MP4 fallback: [assets/demo.mp4](assets/demo.mp4)
 
 ## Sample PCAP
 
