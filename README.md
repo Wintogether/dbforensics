@@ -78,7 +78,7 @@ samples/91_95_mysql.pcap
 
 Open the sample file in DBForensics to test session reconstruction and the SQL event timeline.
 
-Public preview build coming soon.
+Download the Windows preview build from [GitHub Releases](https://github.com/Wintogether/dbforensics/releases/tag/v0.1-preview).
 
 ## Demo
 
