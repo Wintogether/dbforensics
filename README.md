@@ -188,7 +188,7 @@ Useful feedback includes:
 You can help by:
 
 - Opening an Issue
-- Starting a Discussion
+- Starting a Discussion: https://github.com/Wintogether/dbforensics/discussions
 - Suggesting database support
 - Sharing PCAP analysis workflows
 - Reporting reconstruction gaps
