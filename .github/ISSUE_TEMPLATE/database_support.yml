@@ -24,10 +24,10 @@ body:
     attributes:
       label: Traffic capture type
       options:
-        - Offline PCAP / PCAPNG
-        - Live capture
-        - Both
-        - Not sure
+        - "Offline PCAP / PCAPNG"
+        - "Live capture"
+        - "Both"
+        - "Not sure"
     validations:
       required: true
   - type: dropdown
@@ -35,10 +35,10 @@ body:
     attributes:
       label: Is the traffic usually encrypted?
       options:
-        - No
-        - Yes
-        - Sometimes
-        - Not sure
+        - "No"
+        - "Yes"
+        - "Sometimes"
+        - "Not sure"
     validations:
       required: true
   - type: textarea

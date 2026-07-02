@@ -34,9 +34,9 @@ body:
     attributes:
       label: Capture file type
       options:
-        - PCAP
-        - PCAPNG
-        - Other / not sure
+        - "PCAP"
+        - "PCAPNG"
+        - "Other / not sure"
     validations:
       required: true
   - type: dropdown
@@ -44,9 +44,9 @@ body:
     attributes:
       label: Is the database traffic encrypted?
       options:
-        - No
-        - Yes
-        - Not sure
+        - "No"
+        - "Yes"
+        - "Not sure"
     validations:
       required: true
   - type: textarea

@@ -26,17 +26,17 @@ body:
     attributes:
       label: Product area
       options:
-        - PCAP import
-        - SQL reconstruction
-        - Session / connection view
-        - SQL event timeline
-        - Search / filters
-        - Incident summary
-        - SQL detail
-        - Protocol detail
-        - Export / report
-        - Packaging / install
-        - Other
+        - "PCAP import"
+        - "SQL reconstruction"
+        - "Session / connection view"
+        - "SQL event timeline"
+        - "Search / filters"
+        - "Incident summary"
+        - "SQL detail"
+        - "Protocol detail"
+        - "Export / report"
+        - "Packaging / install"
+        - "Other"
     validations:
       required: true
   - type: textarea
