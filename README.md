@@ -12,7 +12,7 @@ Recover SQL statements and reconstruct database sessions directly from PCAP file
 
 DBForensics is a Windows desktop tool for investigating database traffic captured in PCAP and PCAPNG files. It helps DBAs, security engineers, incident response teams, digital forensics professionals, and packet analysis users understand database activity without deploying an agent or connecting to the database.
 
-![DBForensics](assets/hero.png)
+![DBForensics demo](assets/demo.gif)
 
 ## Why DBForensics?
 
